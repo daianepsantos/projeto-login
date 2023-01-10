@@ -88,13 +88,17 @@ span.material-symbols-outlined {
 div.campo > input {
     background-color: #84fcf8;
     border: 0px;
-    width: calc(100 - 44px);
-    height: 100%;
+    width: 81%;
+    height: 90%;
     padding: 4px;
     transform: translateY(-10px);
     border: 0px;
     border-radius: 8px;
     font-size: 1em;
+}
+
+div.campo > input:focus-within {
+    background-color: white;
 }
 
 form > input[type=submit] {
