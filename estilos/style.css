@@ -70,11 +70,31 @@ form > div.campo {
     height: 40px;
     margin: 5px 0px;
     background-color: #5f2c82;
-    border-radius: 5px;
+    border-radius: 8px;
 }
 
 div.campo > label {
     display: none;
+}
+
+span.material-symbols-outlined {
+    width: 40px;
+    padding: 5px;
+    color: white;
+    /*background-color: black;*/
+    font-size: 2em;
+}
+
+div.campo > input {
+    background-color: #84fcf8;
+    border: 0px;
+    width: calc(100 - 44px);
+    height: 100%;
+    padding: 4px;
+    transform: translateY(-10px);
+    border: 0px;
+    border-radius: 8px;
+    font-size: 1em;
 }
 
 form > input[type=submit] {
