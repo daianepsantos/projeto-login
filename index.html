@@ -25,7 +25,7 @@
                         <span class="material-symbols-outlined">
                             person
                             </span>
-                        <input type="email" name="login" id="ilogin" placeholder="Digite seu e-mail" autocomplete="email">
+                        <input type="email" name="login" id="ilogin" placeholder="Digite seu e-mail" autocomplete="email" required maxlength="30">
                         <label for="ilogin">Login</label>
                     </div>
 
@@ -33,10 +33,14 @@
                         <span class="material-symbols-outlined">
                             vpn_key
                             </span>
-                        <input type="password" name="senha" id="isenha" placeholder="Digite sua senha" autocomplete="password">
+                        <input type="password" name="senha" id="isenha" placeholder="Digite sua senha" autocomplete="current-password" required minlength="8" maxlength="20">
                         <label for="isenha">Senha</label>
                     </div>
-
+                    <input type="submit" value="Entrar">
+                    <a href="#">Esqueci minha senha</a>
+                    <span class="material-symbols-outlined">
+                        mail
+                        </span>
                 </form>
             </div>
         </section>
